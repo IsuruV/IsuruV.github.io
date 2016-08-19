@@ -1,0 +1,21 @@
+# Site settings
+title: How SSL Encryption Works
+header-img: img/home-bg.png
+email: isuru260@gmail.com
+copyright_name: IsuruV
+description: > # this means to ignore newlines until "baseurl:"
+  SSL Encryption
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  IsuruV
+learn_profile: IsuruV
+email_username: isuru260@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
